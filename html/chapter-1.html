@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+
+<body>
+   <h1>Глава 1 - Текст</h1>
+   <hr>
+   <ul>
+      <li><a href="#header">Заголовки (<b>H</b>eader)</a></li>
+      <li><a href="#paragraph">Абзац (<b>P</b>aragraph)</a></li>
+      <li><a href="#bold_and_italic">Полужирное и курсивное начертание (<b>B</b>old and <b>i</b>talic)</a></li>
+      <li><a href="#subscript_and_superscript">Подстрочные и надстрочные индексы (<b>Sub</b>script and
+            <b>sup</b>erscript)</a></li>
+      <li><a href="#break_line_and_horizontal_Rule">Перенос строки и горизонтальная линия (<b>Br</b>eak line and
+            <b>H</b>orizontal <b>R</b>ule)</a></li>
+      <li><a href="#strong_and_emphasis">Важная информация и акценты (<b>Strong</b> and
+            <b>Em</b>phasis)</a></li>
+      <li><a href="#blockquote_and_quote_element">Цитаты (<b>Blockquote</b> and
+            <b>Q</b>uote Element)</a></li>
+      <li><a href="#abbr">Аббревиатура (<b>Abbr</b>eviation)</a></li>
+      <li><a href="#dfn">Обозначение (<b>D</b>e<b>f</b>i<b>n</b>tion) </a></li>
+
+   </ul>
+   <br>
+
+   <fieldset>
+      <legend>
+         <h2 id="header">Заголовки (<abbr title="Header - Заголовок. Aббревиатура - h">Header</abbr>)</h2>
+      </legend>
+      <p>В HTML существует шесть уровней заголовков. <br>Тег &lt;h1&gt; - основной заголовок. <br>Теги с &lt;h2&gt; по
+         &lt;h6&gt; - подзаголовки. <br>Тег заголовков закрывающийся &lt;h1&gt;&lt;/h1&gt;. </p>
+      <hr>
+      <h3>Код в html:</h3>
+      <p><b>&lt;h1&gt;</b>Заголовок_1<b>&lt;/h1&gt;</b></p>
+      <p><b>&lt;h2&gt;</b>Заголовок 2<b>&lt;/h2&gt;</b></p>
+      <p><b>&lt;h3&gt;</b>Заголовок 3<b>&lt;/h3&gt;</b></p>
+      <p><b>&lt;h4&gt;</b>Заголовок 4<b>&lt;/h4&gt;</b></p>
+      <p><b>&lt;h5&gt;</b>Заголовок 5<b>&lt;/h5&gt;</b></p>
+      <p><b>&lt;h6&gt;</b>Заголовок 6<b>&lt;/h6&gt;</b></p>
+      <br>
+      <h3>Вывод кода:</h3>
+      <h1>Заголовок 1</h1>
+      <h2>Заголовок 2</h2>
+      <h3>Заголовок 3</h3>
+      <h4>Заголовок 4</h4>
+      <h5>Заголовок 5</h5>
+      <h6>Заголовок 6</h6>
+   </fieldset>
+   <br>
+
+   <fieldset>
+      <legend>
+         <h2 id="paragraph">Абзац (<abbr title="Paragraph - Абзац. Aббревиатура - p">Paragraph</abbr>)</h2>
+      </legend>
+      <p>Тег &lt;p&gt; применяется для формирования абзаца, по умолчанию каждый абзац отображается с новой строки. Тег
+         абзаца закрывающийся &lt;p&gt;&lt;/p&gt;.</p>
+      <hr>
+      <h3>Код в html:</h3>
+      <p><b>&lt;p&gt;</b>"Текст"<b>&lt;/p&gt;</b></p>
+      <p><b>&lt;p&gt;</b>Абзацы текста идущие друг за другом разделяются между собой отбивкой. Величиной отбивки можно
+         управлять с помощью стилей. Если закрывающего тега нет, считается, что конец абзаца совпадает с началом
+         следующего блочного элемента.<b>&lt;/p&gt;</b></p>
+      <br>
+      <h3>Вывод кода:</h3>
+      <p>"Текст"</p>
+      <p>Абзацы текста идущие друг за другом разделяются между собой отбивкой. Величиной отбивки можно
+         управлять с помощью стилей. Если закрывающего тега нет, считается, что конец абзаца совпадает с началом
+         следующего блочного элемента.</p>
+   </fieldset>
+   <br>
+
+   <fieldset>
+      <legend>
+         <h2 id="bold_and_italic">Полужирное и курсивное начертание (<abbr
+               title="Bold - в шрифтах обозначение полужирного текста. Aббревиатура - b">Bold</abbr> and <abbr
+               title="Italic - курсив. Aббревиатура - i">Italic</abbr>)</h2>
+      </legend>
+      <p>Данные теги не имеют дополнительных значений к тексту. <br> Тег <b>&lt;b&gt;</b> используется для выделения
+         ключевых
+         слов. <br> Тег <b>&lt;i&gt;</b> отображает текст курсивом, для выделения технических терминов, иностранных слов
+         и
+         прочих включений в текст. <br>Данные теги требуют закрытия.</p>
+      <h3>Код в html:</h3>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. &lt;b&gt;Error, similique aperiam
+         doloremque recusandae enim nesciunt. &lt;/b&gt;Eaque quaerat laudantium porro ducimus tempora
+         laboriosam quos
+         voluptatum perspiciatis possimus non sequi numquam quod minus maiores, nulla molestiae excepturi eveniet
+         provident incidunt
+         distinctio odio. &lt;i&gt;Velit et enim, sint odio doloremque sequi ex consequuntur
+         provident.&lt;/i&gt;
+      </p>
+      <br>
+      <h3>Вывод кода:</h3>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <b>Error, similique aperiam doloremque
+            recusandae enim nesciunt. </b>Eaque quaerat laudantium porro ducimus tempora laboriosam quos voluptatum
+         perspiciatis possimus non sequi numquam quod minus maiores, nulla molestiae excepturi eveniet provident
+         incidunt
+         distinctio odio. <i>Velit et enim, sint odio doloremque sequi ex consequuntur provident.</i></p>
+   </fieldset>
+   <br>
+
+   <fieldset>
+      <legend>
+         <h2 id="subscript_and_superscript">Подстрочные и надстрочные индексы (<abbr
+               title="Subscript - Нижний индекс. Aббревиатура - sub">Subscript</abbr> and <abbr
+               title="superscript - верхний индекс. Aббревиатура - sup">Superscript</abbr>)
+         </h2>
+      </legend>
+      <p>Тег <b>&lt;sup&gt;</b> используется для выделения символов которые должны быть отражены как надстрочные, к
+         примеру,
+         математические и физические формулы. <br>Тег <b>&lt;sub&gt;</b> используется дляотображения подстрочных
+         символов, как
+         правило используется в химических формулах.<br>Данные теги требуют закрытия.</p>
+      <h3>Код в html:</h3>
+      <p>Формула E=mc&lt;sup&gt;2&lt;/sup&gt;. СО&lt;sub&gt;2&lt;/sub&gt;</p>
+      <br>
+      <p><b>Вывод кода:</b></p>
+      <p>Формула E=mc<sup>2</sup>. CO<sub>2</sub></p>
+   </fieldset>
+   <br>
+
+   <fieldset>
+      <legend>
+         <h2 id="break_line_and_horizontal_Rule">Перенос строки и горизонтальная линия(<abbr
+               title="Break line - Линия разрыва. Aббревиатура - br">Break line</abbr> and
+            <abbr title="Horizontal Rule - Горизонтальная правило (линия). Aббревиатура - hr">Horizontal Rule</abbr>)
+         </h2>
+      </legend>
+      <p>Тег <b>&lt;br&gt;</b> применяется для перевода на новую строку в пределах одного абзаца, либо для формирования
+         отступа. <br>Тег <b>&lt;hr&gt;</b> применяется для создания линии. <br>Данные теги не требуют закрытия.</p>
+      <h3>Код в html:</h3>
+      <p>Lorem ipsum dolor, &lt;br&gt; sit amet consectetur adipisicing elit. Natus, voluptatem.
+         &lt;hr&gt; Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam, corporis.
+      </p>
+      <br>
+      <h3>Вывод кода:</h3>
+      <p>Lorem ipsum dolor, <br> sit amet consectetur adipisicing elit. Natus, voluptatem.
+         <hr> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam, corporis.
+      </p>
+   </fieldset>
+   <br>
+
+   <fieldset>
+      <legend>
+         <h2 id="strong_and_emphasis">Важная информация и акценты (<abbr title="Strong - Важное.">Strong</abbr> and
+            <abbr title="Emphasis - Акцент. Aббревиатура - em">Emphasis</abbr>)
+         </h2>
+      </legend>
+      <p>Тег <b>&lt;strong&gt;</b> используется для обозначения того, что текст помещенный в него имеет высокую
+         степень важности. Браузеры по умолчанию отображают полужирным текстом как тег &lt;b&gt;. </p>
+      <br>
+      <p> Тег <b>&lt;em&gt;</b> сокращение от «emphasis» (акцент) используется для обозначения ударения. Программа,
+         читающая текст, будет
+         произносить слова, выделенные курсивом, с ударением, используя словесное ударение. Браузеры по умолчанию
+         отображают курсивом как тег &lt;i&gt;. </p>
+      <hr>
+      <h3>Код в html:</h3>
+      <p> &lt;strong&gt;Будьте осторожны:&lt;/strong&gt; пельмешки &lt;em&gt;очень&lt;/em&gt; горячие!
+      </p>
+      <br>
+      <h3>Вывод кода:</h3>
+      <p><strong>Будьте осторожны:</strong> пельмешки <em>очень</em> горячие!
+      </p>
+   </fieldset>
+   <br>
+
+   <fieldset>
+      <legend>
+         <h2 id="blockquote_and_quote_element">Цитаты (<abbr title="Blockquote - Цитата из блока.">Blockquote</abbr> and
+            <abbr title="Quote element - Элемент цитаты. Aббревиатура - q">Quote Element</abbr>)
+         </h2>
+      </legend>
+      <p>Тег <b>&lt;blockquote&gt;</b> используется для отображения длинных цитат внутри <b>&lt;blockquote&gt;</b>
+         необходимо использовать <b>&lt;p&gt;</b>. <br> Браузеры склонны к выделению отступами. </p>
+      <br>
+      <p> Тег <b>&lt;q&gt;</b> сокращение от «quote» (цитата) используется для коротких цитат. <br>В обоих элементах
+         может быть указан атрибут <b>cite*</b>. </p>
+      <hr>
+      <h3>Код в html:</h3>
+      &lt;blockquote
+      cite="http://www.vothouse.ru/films/ivan_vasiljevich_menjaet_professiju_quotes.html?ysclid=le2dhi0pid716794163"&gt;<br>&lt;p&gt;
+      ―Ты прoсти, чтo я тебе мешаю, нo я дoлжна сooбщить тебе ужаснoе известие. У меня сегoдня в
+      кафе увели перчатки. И я пoлюбила другoгo. Ты меня пoнимаешь, Шурик?&lt;/p&gt;</br>&lt;/blockquote&gt;
+      <br>
+      <br>
+      &lt;p&gt; <br> &lt;q cite="https://citaty.info/character/vinni-puh"&gt; Никто не может грустить, когда у него есть
+      воздушный шарик!&lt;/q&gt; <br>&lt;/p&gt;
+      <br>
+      <h3>Вывод кода:</h3>
+      <blockquote
+         cite="http://www.vothouse.ru/films/ivan_vasiljevich_menjaet_professiju_quotes.html?ysclid=le2dhi0pid716794163">
+         <p> ―Ты прoсти, чтo я тебе мешаю, нo я дoлжна сooбщить тебе ужаснoе известие. У меня сегoдня в
+            кафе увели перчатки. И я пoлюбила другoгo. Ты меня пoнимаешь, Шурик?</p>
+      </blockquote>
+
+      <p><q cite="https://citaty.info/character/vinni-puh"> Никто не может грустить, когда у него есть воздушный
+            шарик!</q></p>
+      <br>
+
+   </fieldset>
+   <br>
+
+   <fieldset>
+      <legend>
+         <h2 id="abbr"> Аббревиатура (<abbr
+               title="Abbreviation — аббревиатура. Аббревиатура - abbr">Abbreviation</abbr>)
+         </h2>
+      </legend>
+      <p>Тег <b>&lt;abbr&gt;</b> указывает, что последовательность символов является аббревиатурой. С помощью атрибута
+         title даётся расшифровка сокращения, что позволяет понимать аббревиатуру тем людям, которые с ней не знакомы.
+         Кроме того, поисковые системы индексируют полнотекстовый вариант сокращения, это может использоваться для
+         повышения рейтинга документа.</p>
+      <hr>
+      <h3>Код в html:</h3>
+      &lt;abbr title="Abbreviation — аббревиатура. Аббревиатура - abbr"&gt;Abbr&lt;/abbr&gt;
+      <br>
+      <h3>Вывод кода:</h3>
+      <abbr title="Abbreviation — аббревиатура. Аббревиатура - abbr">Abbr</abbr>
+      <br>
+   </fieldset>
+   <br>
+
+   <fieldset>
+      <legend>
+         <h2 id="dfn">Определение (<abbr title="Defintion - определение. Аббревиатура - dfn">Defintion</abbr>)</h2>
+      </legend>
+      <p> Элемент &lt;dfn&gt; (от англ. definition — определение) применяется для выделения таких терминов при их первом
+         появлении в тексте. Браузеры, как правило, отображают содержимое контейнера &lt;dfn&gt; с помощью курсивного
+         начертания. Определение термина задаётся с помощью атрибута title у элемента &lt;dfn&gt;, либо с помощью
+         атрибута title у вложенного элемента &lt;abbr&gt;, либо текстом внутри &lt;dfn&gt;.</p>
+      <hr>
+      <h3>Код в html:</h3>
+      &lt;p&gt;&lt;dfn&gt;Капителью&lt;/dfn&gt; в типографике называется текст, набранный
+      прописными буквами уменьшенного размера.&lt;/p&gt;
+      <br>
+      <h3>Вывод кода:</h3>
+      <p><dfn>Капителью</dfn> в типографике называется текст, набранный
+         прописными буквами уменьшенного размера.</p>
+   </fieldset>
+
+   <a href="../index.html">Назад</a>
+   <a href="chaper-2.html">Далее</a>
+</body>
+
+</html>
