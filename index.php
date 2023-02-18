@@ -27,6 +27,8 @@
       echo 'Error Number: ' . $sql->connect_errno . '<br>';
       echo 'Error: ' . $sql->connect_error;
    }
+   $res = $sql->query("select * from ccfp_db");
+   var_dump($res);
 
    $sql->close();
 
