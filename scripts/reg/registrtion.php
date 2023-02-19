@@ -14,7 +14,7 @@
 
    <!-- Регистрация и авторизация-->
    <div id=reg_inside>
-      <form class=reg_win action="" method="">
+      <form id=reg_win action="" method="">
       <label>Имя</label>
       <input class=reg_in type="text">
       <label>Пароль</label>
