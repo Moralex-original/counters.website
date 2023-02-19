@@ -1,0 +1,7 @@
+/*Загрузка шрифта*/
+@font-face { 
+   font-family: 'RobotoSlab-VaraibleFont';
+   src: url('font/RobotoSlab-VaraibleFont.ttf');
+   font-weight: 500;
+   font-style: normal;
+}
