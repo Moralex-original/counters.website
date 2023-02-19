@@ -13,8 +13,8 @@
 <body>
 
    <!-- Регистрация и авторизация-->
-   <div id=reg_inside>
-      <form id=reg_win action="" method="">
+   <div class=reg_inside>
+      <form class=reg_win action="" method="">
       <label>Имя</label>
       <input class=reg_in type="text">
       <label>Пароль</label>
