@@ -22,8 +22,7 @@
       <button>Войти</button>
       <button href="../reg/registrtion.php">Регистрация</button>
       </form>
-   </div>
-   
+   </div>   
    
 </body>
 </html>
