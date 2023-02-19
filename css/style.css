@@ -1,7 +1,8 @@
 /*Загрузка шрифта*/
 @font-face {
    font-family: "Roboto Slab";
-   src: url('../font/static/RobotoSlab-Regular.woff2') format('woff2'),  
+   src:  url('../font/static/RobotoSlab-Regular.eot') format('eot'),
+   url('../font/static/RobotoSlab-Regular.woff2') format('woff2'),  
    url('../font/static/RobotoSlab-Regular.woff') format('woff'),  
    url('../font/static/RobotoSlab-Regular.ttf') format('truetupe'),
    url('../font/static/RobotoSlab-Regular.svg') format('svg');
