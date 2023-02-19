@@ -7,8 +7,8 @@
 }
 
 .body {
-   font-family: 'RobotoSlab-VaraibleFont';
-   src: url('font/RobotoSlab-VaraibleFont.ttf');
+   font-family: 'RobotoSlab-Regular';
+   src: url('font/static/RobotoSlab-Regular.ttf');
    font-weight: 500;
    font-style: normal;
 }
