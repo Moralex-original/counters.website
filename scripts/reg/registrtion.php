@@ -13,7 +13,7 @@
 <body>
 
    <!-- Регистрация и авторизация-->
-   <div class=reg_inside>
+   <div id=reg_inside>
       <form class=reg_win action="" method="">
       <label>Имя</label>
       <input class=reg_in type="text">
