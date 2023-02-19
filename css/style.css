@@ -1,7 +1,12 @@
 /*Загрузка шрифта*/
 @font-face { 
    font-family: "RobotoSlab-Regular";
-   src: url("../font/static/RobotoSlab-Regular.ttf");
+   src: url("/font/static/RobotoSlab-Regular.ttf");
+   font-weight: 100;
+   font-style: normal;
+}
+body{
+   font-family: "RobotoSlab-Regular";
    font-weight: 100;
    font-style: normal;
 }
