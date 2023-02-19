@@ -1,4 +1,6 @@
-
+<?php
+   session_start();
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -30,8 +32,14 @@
       <form action="../../scripts/auth/authorization.php" target="_self">
             <button>Авторизация</button>
       </form>
-      <p class="msg">Сообщение</p>
-
+         
+         <?php
+         //Окно с выводом о несовпадении паролей
+         if ($_SESSION['massage']) {
+            echo '<p class="msg"> ' . $_SESSION['massage'] . ' </p>';
+         }
+         unset($_SESSION['massage']);
+         ?>
    </div>
 
 </body>
