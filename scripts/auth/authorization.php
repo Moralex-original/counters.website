@@ -14,7 +14,7 @@
 
 <body>
 
-   <!-- Регистрация и авторизация-->
+   <!-- Авторизация -->
    <div id=reg_inside>
       <form id=reg_win action="" method="">
          <label>Имя</label>

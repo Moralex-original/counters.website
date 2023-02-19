@@ -12,36 +12,23 @@
    </head>
 <body>
 
-   <!--
+   <!-- Регистрация -->
    <div id=reg_inside>
       <form id=reg_win action="" method="">
-      <label>Имя</label>
-      <input type="text" placeholder="Введите имя">
-      <label>Пароль</label>
-      <input type="password" placeholder="Введите пароль">
-      <button class=reg_but>Войти</button>
-      <a href="../reg/registrtion.php">Регистрация</a>
+         <label>Имя</label>
+         <input type="text" placeholder="Введите имя">
+         <label>Почта</label>
+         <input type="email" placeholder="Введите адрес эл. почты">
+         <label>Пароль</label>
+         <input type="password" placeholder="Введите пароль">
+         <label>Подтвердите пароль</label>
+         <input type="password" placeholder="Подтвердите пароль">
+         <button>Войти</button>         
       </form>
+      <form action="../../scripts/auth/authorization.php" target="_self">
+            <button>Авторизация</button>
+         </form>
    </div>
-   -->
-   <table width="700" cellpadding="4" cellspacing="1">
-      <tr>
-         <td>
-            <h1>Ошибочка</h1>
-         </td>
-      </tr>
-      <tr>
-         <td>
-            <h2>
-               Страница в работе
-            </h2>
-         </td>
-      </tr>
-      <tr>
-         <td>
-            <span class="leftMenu"><a href="javascript:history.back(-1)">Вернуться</a></span>
-         </td>
-      </tr>
-   </table>
+
 </body>
 </html>
