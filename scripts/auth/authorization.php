@@ -17,8 +17,8 @@
    <!-- Авторизация -->
    <div id=reg_inside>
       <form id=reg_win action="" method="">
-         <label>Имя</label>
-         <input type="text" placeholder="Введите имя">
+         <label>Логин</label>
+         <input type="text" placeholder="Введите логин">
          <label>Пароль</label>
          <input type="password" placeholder="Введите пароль">
          <button>Войти</button>         

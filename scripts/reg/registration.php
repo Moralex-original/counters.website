@@ -15,8 +15,8 @@
    <!-- Регистрация -->
    <div id=reg_inside>
       <form id=reg_win action="" method="">
-         <label>Имя</label>
-         <input type="text" placeholder="Введите имя">
+         <label>Логин</label>
+         <input type="text" placeholder="Введите логин">
          <label>Почта</label>
          <input type="email" placeholder="Введите адрес эл. почты">
          <label>Пароль</label>
