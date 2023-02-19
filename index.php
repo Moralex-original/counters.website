@@ -20,21 +20,7 @@
       <li><a href="html/chapter-2.html">Глава 2 - Списки</a></li>
    </ul>
    <?php
-   include 'config.php';
-
-   echo date('l, F jS, Y');
-
-   $sql = new mysqli("localhost", $dbusername, $dbpassword, $dbname);
-   $sql->query("SET NAMES 'utf8'");
-
-   if ($sql->connect_error) {
-      echo 'Error Number: ' . $sql->connect_errno . '<br>';
-      echo 'Error: ' . $sql->connect_error;
-   }
-   $res = $sql->query("select * from ccfp_db");
-   var_dump($res);
-
-   $sql->close();
+      echo date('l, F jS, Y');
    ?>
 
 </body>

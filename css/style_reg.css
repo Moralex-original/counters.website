@@ -53,3 +53,11 @@ button{
 p {
    margin: 10px 0;
 }
+
+.msg{
+   border: 2px solid #b34436;
+   border-radius: 3px ;
+   padding: 10px;
+   text-align: center;
+   font-weight: bold;
+}
