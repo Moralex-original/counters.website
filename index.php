@@ -17,7 +17,7 @@
    <hr>
    <ul>
       <li><a href="html/chapter-1.html">Глава 1 - Текст</a></li>
-      <li><a href="html/chapter-2.html">Глава 2 - ***</a></li>
+      <li><a href="html/chapter-2.html">Глава 2 - Списки</a></li>
    </ul>
    <?php
    include 'config.php';
