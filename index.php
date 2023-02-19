@@ -35,9 +35,10 @@
    var_dump($res);
 
    $sql->close();
-
    ?>
 
+   
+   <a href="scripts/reg/registrtion.php">Регистрация и вход</a>
    </script>
 </body>
 
