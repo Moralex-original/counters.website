@@ -19,8 +19,8 @@
       <input type="text" placeholder="Введите имя">
       <label>Пароль</label>
       <input type="password" placeholder="Введите пароль">
-      <button class=reg_but>Войти</button>
-      <a href="../reg/registrtion.php">Регистрация</a>
+      <button>Войти</button>
+      <button href="../reg/registrtion.php">Регистрация</button>
       </form>
    </div>
    
