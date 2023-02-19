@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
    <head>
-      <title>Chapter-1</title> <!-- Заголовок страницы в браузере (не более 60 символов) -->
+      <title>Registration</title> <!-- Заголовок страницы в браузере (не более 60 символов) -->
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
       <link rel="stylesheet" href="../../css/style_reg.css"> <!-- Подключаение CSS таблицу стилей -->
