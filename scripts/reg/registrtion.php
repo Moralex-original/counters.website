@@ -13,7 +13,6 @@
 <body>
 
    <!-- Регистрация и авторизация-->
-   <h1>Регистрация</h1>
    <form id=reg_win action="" method="">
       <label>Имя</label>
       <input type="text">
