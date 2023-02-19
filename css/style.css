@@ -1,7 +1,11 @@
 /*Загрузка шрифта*/
 @font-face {
-   font-family: "Roboto Slab" "Arial";
-   src: url("../font/static/RobotoSlab-Regular.woff2") format("woff2"), url("../font/static/RobotoSlab-Regular.woff") format("woff"), url("../font/static/RobotoSlab-Regular.ttf") format("truetupe"), url("../font/static/RobotoSlab-Regular.svg") format("svg");
+   font-family: "Roboto Slab";
+   src: url("../font/static/RobotoSlab-Regular.woff2") format("woff2"),  
+   url("../font/static/RobotoSlab-Regular.woff") format("woff"),  
+   url("../font/static/RobotoSlab-Regular.ttf") format("truetupe"),  
+   url("../font/static/RobotoSlab-Regular.otf") format("otf"),
+   url("../font/static/RobotoSlab-Regular.svg") format("svg");
    font-weight: normal;
    font-style: normal;
 }
@@ -11,7 +15,8 @@ body {
    font-weight: 400;
    font-style: normal;
 }
-h1{
+
+h1 {
    font-family: "Roboto Slab";
    font-weight: 400;
    font-style: normal;
