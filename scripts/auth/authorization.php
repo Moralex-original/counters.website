@@ -21,11 +21,11 @@
          <input type="text" placeholder="Введите имя">
          <label>Пароль</label>
          <input type="password" placeholder="Введите пароль">
-         <button>Войти</button>
-         <form action="../../scripts/reg/registration.php" target="_self">
+         <button>Войти</button>         
+      </form>
+      <form action="../../scripts/reg/registration.php" target="_self">
             <button>Регистрация</button>
          </form>
-      </form>
    </div>
 
 </body>
