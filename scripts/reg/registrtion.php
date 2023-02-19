@@ -24,6 +24,24 @@
       </form>
    </div>
    -->
-   <h1>Данная страница в работе</h1>
+   <table width="700" cellpadding="4" cellspacing="1">
+      <tr>
+         <td>
+            <h1>Ошибочка</h1>
+         </td>
+      </tr>
+      <tr>
+         <td>
+            <h2>
+               Страница в работе
+            </h2>
+         </td>
+      </tr>
+      <tr>
+         <td>
+            <span class="leftMenu"><a href="javascript:history.back(-1)">Вернуться</a></span>
+         </td>
+      </tr>
+   </table>
 </body>
 </html>
