@@ -13,13 +13,16 @@
 <body>
 
    <!-- Регистрация и авторизация-->
-   <form id=reg_win action="" method="">
+   <div id=reg_inside>
+      <form id=reg_win action="" method="">
       <label>Имя</label>
-      <input type="text">
+      <input class=reg_in type="text">
       <label>Пароль</label>
-      <input type="password">
-      <button>Войти</button>
-   </form>
+      <input class=reg_in type="password">
+      <button class=reg_but>Войти</button>
+      </form>
+   </div>
+   
    
 </body>
 </html>
