@@ -39,6 +39,6 @@
 
 </body>
 <footer>
-<a href="scripts/reg/registrtion.php">Регистрация и вход</a>
+<a href="scripts/auth/authorization.php">Регистрация и вход</a>
 </footer>
 </html>

@@ -12,17 +12,18 @@
    </head>
 <body>
 
-   <!-- Регистрация и авторизация-->
+   <!--
    <div id=reg_inside>
       <form id=reg_win action="" method="">
       <label>Имя</label>
-      <input class=reg_in type="text">
+      <input type="text" placeholder="Введите имя">
       <label>Пароль</label>
-      <input class=reg_in type="password">
+      <input type="password" placeholder="Введите пароль">
       <button class=reg_but>Войти</button>
+      <a href="../reg/registrtion.php">Регистрация</a>
       </form>
    </div>
-   
-   
+   -->
+   <h1>Q</h1>
 </body>
 </html>
