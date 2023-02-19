@@ -18,7 +18,7 @@
 
    <!-- Регистрация -->
    <div>
-      <form action="../../include/registration.php" method="post">
+      <form action="../../inc/singup.php" method="post">
          <label>Логин</label>
          <input type="text" name="login" placeholder="Введите логин">
          <label>Почта</label>
