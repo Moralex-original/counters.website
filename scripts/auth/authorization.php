@@ -22,7 +22,7 @@
          <label>Пароль</label>
          <input type="password" placeholder="Введите пароль">
          <button>Войти</button>
-         <form action="../reg/registrtion.php" target="_self">
+         <form action="../../reg/registrtion.php" target="_self">
             <button>Регистрация</button>
          </form>
       </form>
