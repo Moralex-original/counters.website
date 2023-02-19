@@ -37,9 +37,8 @@
    $sql->close();
    ?>
 
-   
-   <a href="scripts/reg/registrtion.php">Регистрация и вход</a>
-   </script>
 </body>
-
+<footer>
+<a href="scripts/reg/registrtion.php">Регистрация и вход</a>
+</footer>
 </html>
