@@ -30,12 +30,14 @@ div#reg_inside{
    margin: 0;
    padding: 0;
    box-sizing: border-box;
+   color: #ff0000;
 }
 
 form#reg_win{
    display: flex;
    flex-direction: column;
    width: 400px;
+   color: #ff0000;
 }
 
 .reg_in{
