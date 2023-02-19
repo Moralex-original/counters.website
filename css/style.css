@@ -1,13 +1,12 @@
 /*Загрузка шрифта*/
 @font-face {
-   font-family: 'Roboto Slab';
-   src: url('../font/static/RobotoSlab-Regular.woff2') format('woff2'), url('../font/static/RobotoSlab-Regular.woff') format('woff');
+   font-family: "Roboto Slab" "Arial";
+   src: url("../font/static/RobotoSlab-Regular.woff2") format('woff2'), url('../font/static/RobotoSlab-Regular.woff') format('woff');
    font-weight: normal;
    font-style: normal;
-   font-display: swap;
 }
 h1{
-   font-family: "RobotoSlab-Regular";
-   font-weight: 100;
+   font-family: "Roboto Slab";
+   font-weight: 300;
    font-style: normal;
 }
