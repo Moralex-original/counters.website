@@ -1,7 +1,6 @@
 <?php
    //Запуск сессии
    session_start();
-   include '../../inc/signup.php';
 ?>
 
 <!DOCTYPE html>
