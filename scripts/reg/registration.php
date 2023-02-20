@@ -35,10 +35,10 @@
          
          <?php
          //Окно с выводом о несовпадении паролей
-         if ($_SESSION['massage']) {
-            echo '<p class="msg"> ' . $_SESSION['massage'] . ' </p>';
+         if ($_SESSION['message']) {
+            echo '<p class="msg"> ' . $_SESSION['message'] . ' </p>';
          }
-         unset($_SESSION['massage']);
+         unset($_SESSION['message']);
          ?>
    </div>
 

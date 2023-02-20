@@ -19,12 +19,12 @@
       mysqli_query($connect, "INSERT INTO 'registration' ('id', 'login', 'email', 'password') VALUES (NULL,'$login','$email','$password')");
 
       //Вывод сообщение о регистрации
-      $_SESSION['massage'] = 'Регистрация прошла успешно!';
+      $_SESSION['message'] = 'Регистрация прошла успешно!';
       header('Location: ../scripts/reg/registration.php');
 
    } else {
       //Вывод сообщение при несовпадении паролей
-      $_SESSION['massage'] = 'Пароли не совпадают';
+      $_SESSION['message'] = 'Пароли не совпадают';
       header('Location: ../scripts/reg/registration.php');
    }
 
