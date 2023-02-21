@@ -37,13 +37,14 @@ session_start();
          <button>Авторизация</button>
       </form>
 
-      <?php
+      
       //Окно с выводом о несовпадении паролей
-      if ($_SESSION['message']) {
-         echo '<p class="msg"> ' . $_SESSION['message'] . ' </p>';
-      }
-      unset($_SESSION['message']);
-      ?>
+      <p class="msg">
+         <?php
+            echo $_SESSION['message'];
+            unset($_SESSION['message']);
+         ?>
+      </p>
    </div>
 
 </body>
