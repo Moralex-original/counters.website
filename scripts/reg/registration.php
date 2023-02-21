@@ -38,8 +38,9 @@ session_start();
       </form>
 
       
-      //Окно с выводом о несовпадении паролей
+      
       <p class="msg">
+         //Окно с выводом о несовпадении паролей
          <?php
             echo $_SESSION['message'];
             unset($_SESSION['message']);
