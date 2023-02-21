@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php
-//Запуск сессии
-session_start();
-?>
+
 <head>
    <title>Counters_and_Calculater</title> <!-- Заголовок страницы в браузере (не более 60 символов) -->
    <meta charset="UTF-8">
