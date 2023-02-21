@@ -27,19 +27,18 @@
          <label>Подтвердите пароль</label>
          <input type="password" name="password_confirm" placeholder="Подтвердите пароль">
          <button>Войти</button>
-         
-      </form>
-      <form action="../../scripts/auth/authorization.php" target="_self">
-         <button>Авторизация</button>
-      </form>
-
-      <?php
+         <?php
       //Окно с выводом о несовпадении паролей
       if (isset($_SESSION['message'])) {
          echo '<p class="msg"> ' . $_SESSION['message'] . ' </p>';
       }
       unset($_SESSION['message']);
       ?>
+      </form>
+      <form action="../../scripts/auth/authorization.php" target="_self">
+         <button>Авторизация</button>
+      </form>
+
    </div>
 
 </body>
