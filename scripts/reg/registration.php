@@ -32,15 +32,13 @@
          <button>Авторизация</button>
       </form>
 
-      
-      
-      <p class="msg">
-         //Окно с выводом о несовпадении паролей
-         <?php
-            echo $_SESSION['message'];
-            unset($_SESSION['message']);
-         ?>
-      </p>
+      <?php
+      //Окно с выводом о несовпадении паролей
+      if (isset($_SESSION['message'])) {
+         echo '<p class="msg"> ' . $_SESSION['message'] . ' </p>';
+      }
+      unset($_SESSION['message']);
+      ?>
    </div>
 
 </body>
