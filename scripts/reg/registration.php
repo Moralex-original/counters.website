@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php
-   $data = $_SESSION;
-?>
 
 <head>
    <title>Registration</title> <!-- Заголовок страницы в браузере (не более 60 символов) -->
@@ -38,7 +35,7 @@
 
       <?php
       //Окно с выводом о несовпадении паролей
-      if (isset($data['message'])) {
+      if (isset($_SESSION['message'])) {
          echo '<p class="msg"> ' . $_SESSION['message'] . ' </p>';
       }
       unset($_SESSION['message']);
