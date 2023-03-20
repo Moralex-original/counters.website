@@ -21,6 +21,7 @@
    </ul>
    <?php
       echo date('l, F jS, Y');
+      echo "Ky";
    ?>
 
 </body>
